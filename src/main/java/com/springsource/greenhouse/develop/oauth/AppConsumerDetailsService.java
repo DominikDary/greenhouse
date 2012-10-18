@@ -22,7 +22,7 @@ import javax.inject.Inject;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.oauth.common.OAuthException;
-import org.springframework.security.oauth.common.signature.SharedConsumerSecret;
+import org.springframework.security.oauth.common.signature.SharedConsumerSecretImpl;
 import org.springframework.security.oauth.common.signature.SignatureSecret;
 import org.springframework.security.oauth.provider.ConsumerDetails;
 import org.springframework.security.oauth.provider.ConsumerDetailsService;
