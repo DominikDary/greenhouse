@@ -78,7 +78,7 @@ public class AppConsumerDetailsService implements ConsumerDetailsService {
 
 		@Override
 		public SignatureSecret getSignatureSecret() {
-			return new SharedConsumerSecret(app.getSecret());
+			return new SharedConsumerSecretImpl(app.getSecret());
 		}
 		
 		public List<GrantedAuthority> getAuthorities() {
